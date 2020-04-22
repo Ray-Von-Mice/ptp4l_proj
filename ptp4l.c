@@ -128,6 +128,7 @@ int main(int argc, char *argv[])
 				goto out;
 			break;
 		case 'S':
+		// EXP_0 experiment text to test git branch works
 			if (config_set_int(cfg, "time_stamping", TS_SOFTWARE))
 				goto out;
 			break;
